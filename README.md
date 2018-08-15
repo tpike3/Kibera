@@ -4,7 +4,13 @@
 This is an Agent Based Model using Python 3.6 and Mesa 0.8.3. It replicates daily survival patterns of a synthetically reconstructed population of the Kianda neighborhood in the Kibera Slum of Nairobi Kenya. 
 
 
-**To Run:** run.py will run the model. 
+**To Run:**   
+0. (recommended) set up a new environment
+1. Clone or download
+2. pip install -r requirements.txt
+3. execute run.py module
+
+run.py will run the model. 
 
   	The current parameters are:
 
@@ -20,6 +26,5 @@ The Jupyter Notebook "Holistic - Results Analysis" is the code used to analyze t
 **Population Data:**
 The shp file used to create the synthetic population is not available due due to restricted distribution content. Anyone interested in obtaining the original data should contact Dr. Stefano Marras at marras.stefano@gmail.com.
 
-A detailed description of the process used to create the synthetic population is available in in the population folder, title *Supplement to Kianda Emerging*
-
+A detailed description of the process used to create the synthetic population is available in the population folder, title *Supplement to Kianda Emerging*
 
