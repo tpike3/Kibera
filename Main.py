@@ -132,14 +132,14 @@ class Main(Model):
         
         child_labor = 0
         meal_cost = 0
-        print ("Child Labor")
-        print (len(self.total_child.keys()), sum(self.total_child.values()), self.children)
+        #print ("Child Labor")
+        #print (len(self.total_child.keys()), sum(self.total_child.values()), self.children)
       
         for agent in self.schedule.agents:
             
             #markerfam = False
-            
-            if agent.unique_id ==5966: 
+            '''
+            if agent.unique_id ==4242: 
                 print ("")
                 print ("Agent 5966: Family Size =  ", len(agent.members))
                 print (agent.requirements)
@@ -147,7 +147,7 @@ class Main(Model):
                 print (agent.resources)
                 print (agent.members)
                 print ("")
-                    
+            '''        
             #Gather Meals Data
             num_full = int(agent.record["Eat"])
             num_partial = int(agent.record["Partial Eat"])
