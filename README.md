@@ -14,7 +14,7 @@ run.py will run the model.
 
   	The current parameters are:
 
-  	Duration: 2016 simulated hours (80 days) 
+  	Duration: 2016 simulated hours (84 days) 
 
   	Probability for Finding Work: 0.5
 
