@@ -43,8 +43,6 @@ et-xmlfile==1.0.1
 fastcache==1.0.2
 filelock==2.0.12
 Fiona==1.7.11
-Flask==0.12.2
-Flask-Cors==3.0.3
 GDAL==2.2.2
 geojson==2.3.0
 geopandas==0.3.0
